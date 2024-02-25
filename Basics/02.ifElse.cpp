@@ -3,12 +3,25 @@ using namespace std;
 
 int main()
 {
-    int a,b;
-    cout<<"Enter first number to add ";
-    cin>>a;
-    cout<<"Enter second number to add ";
-    cin>>b;
+    char c = 'n';
 
-    cout<<"sum of number is: "<<a+b;
+    if(c=='a')
+    cout<<"Vowel";
+
+    else if(c == 'e')
+    cout<<"Vowel";
+
+    else if(c == 'i')
+    cout<<"Vowel";
+
+    else if(c == 'o')
+    cout<<"Vowel";
+
+    else if(c == 'u')
+    cout<<"Vowel";
+    
+    else
+    cout<<"Consonant";
+
 
 }
